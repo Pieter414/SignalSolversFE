@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        body{
+        background: whitesmoke;
+        background-image: url('bekgronn.png');
+        background-attachment: fixed;
+        }
+        .container {
+            width: 346px;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: auto;
+            padding: 20px;
+            background-color: #EFB8C8;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            margin-top: auto;
+            margin-right: 25px;
+            margin-left: 25px;
+        }.facebook-icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    width: 56px;
+    height: 49px;
+    object-fit: cover;
+    z-index: 4;
+        }
+        .gambar{
+        max-width: 100%;
+        width: auto;
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        position: relative;
+        }
+        .nama{
+            margin-right: 260px;
+            font-family: 'Poppins' sans-serif;
+        }
+        .pass{
+            margin-right: 240px;
+            font-family: 'Poppins' sans-serif;
+            
+        }
+        .lass{
+            margin-right: 240px;
+            font-family: 'Poppins' sans-serif;}
+        input[type="text"], input[type="password"] {
+            width: 96%;
+            padding: 10px;
+            padding-right: 1%;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        input[type="submit"] {
+            background-color: #633B48;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 8px;
+        }
+        .or-login-with {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+        .bawah{
+            margin-top: 8px;
+            text-align: center;
+        }
+        a {
+            color: #633B48;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        .social-login {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .social-login a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            margin: 0 5px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        .social-login a:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <div class="gambar">
+        <img src='Logoo.png'>
+    </div>
+    <div class="container">
+        <div class="nama">
+        <span>
+            Email
+        </span>
+
+        </div>
+        
+        <form>
+            <input type="text" id="email" placeholder="" required>
+            <div class="pass">
+                <span>
+                   Username
+                </span>
+        
+                </div>
+            <input type="text" id="username" placeholder="" required>
+
+
+            <div class="lass">
+                <span>
+                  Password
+                </span>
+        
+                </div>
+            <input type="password" id="password" placeholder="" required>
+            
+    
+            <script>
+                function redirectToLoginPage() {
+                    window.location.href = "../homepage/homepage.html";
+                }
+            </script>
+            
+            <input type="submit" value="LOGIN" onclick="redirectToLoginPage()">
+        </form>
+        
+
+    </div>
+    <div class="bawah">
+        Already have account? <a href="../registerpage.html">LOG IN</a>
+    </div>
+</body>
+
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+  <script src="./mail.js"></script>
+</html>

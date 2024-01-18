@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body{
+            background-image: url('./bekgron.png');
+        }
+        </style>
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Italianno:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="homepage">
+      <section class="frame-group">
+        <div class="first-f-r-a-m-e">
+          <div class="wrapper-group-70">
+            
+          </div>
+          <div class="content-r-e-c-t-a-n-g-l-e">
+            <div class="text-s">
+              <div class="untitled-r-e-c-t-a-n-g-l-e">
+                <div class="e-l-l-i-p-s-e">
+                  <img src="Logoo.png">
+                  
+
+                  <div class="rectangle-nest">
+                   
+                    
+                    
+                  </div>
+                </div>
+              </div>
+              <b class="hello-tom-container">
+                <p class="hello-tom">Hello Tom ^^</p>
+                <p class="what-are-you">What are you up to today?</p>
+              </b>
+            </div>
+          </div>
+          <div class="frame-quadruple">
+            <div class="settings-f-r-a-m-e">
+              <div class="frame-triplet">
+                <div class="rectangle-pair">
+                  <div class="dictionary-r-e-c-t-a-n-g-l-e">
+                    <div class="data-container" id="dataContainer"></div>
+                    <img
+                      class="dictionary-icon"
+                      loading="eager"
+                      alt=""
+                      src="Dictionary.png"
+                    />
+                  </div>
+                  <b class="dictionary">Dictionary</b>
+                </div>
+              </div>
+              <div class="frame-settings">
+                <div class="mentor-community-f-r-a-m-e">
+                  <b class="settings">Settings</b>
+                  <b class="mentor-community-container">
+                    <p class="mentor">Mentor &</p>
+                    <p class="community">Community</p>
+                  </b>
+                </div>
+                <div class="rectangle-duo">
+                  <div class="rectangle-users" id="rectangleUsers"></div>
+                  <img
+                    class="people-icon"
+                    loading="eager"
+                    alt=""
+                    src="People.png"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="info-frame-settings">
+              <div class="translate-a-p-p-f-r-a-m-e">
+                <div
+                  class="translate-label-rectangle"
+                  id="translateLabelRectangle"
+                ></div>
+                <b class="info-tips">Info & Tips</b>
+                <img
+                  class="information-icon"
+                  loading="eager"
+                  alt=""
+                  src="Information.png"
+                />
+              </div>
+              <div class="translate-a-p-p-f-r-a-m-e1">
+                <div
+                  class="translate-a-p-p-f-r-a-m-e-child"
+                  id="rectangle"
+                ></div>
+                <img
+                  class="settings-icon"
+                  loading="eager"
+                  alt=""
+                  src="Settings.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="rectangle-frame">
+            <button class="translate-app-frame">
+              <div class="translate-app-frame-child"></div>
+              <div class="info-tips1">
+                <img
+                  class="translate-app-icon"
+                  alt=""
+                  src="Translate App.png"
+                  id="translateAppImage"
+                />
+              </div>
+              <div class="translate">
+                <b class="translate1">Translate</b>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var dataContainer = document.getElementById("dataContainer");
+      if (dataContainer) {
+        dataContainer.addEventListener("click", function (e) {
+            window.location.href = "../translate/translate.html";
+        });
+      }
+      
+      var rectangleUsers = document.getElementById("rectangleUsers");
+      if (rectangleUsers) {
+        rectangleUsers.addEventListener("click", function (e) {
+          // Please sync "Mentor & Community page" to the project
+        });
+      }
+      
+      var translateLabelRectangle = document.getElementById(
+        "translateLabelRectangle"
+      );
+      if (translateLabelRectangle) {
+        translateLabelRectangle.addEventListener("click", function (e) {
+          // Please sync "Info & Tips Page" to the project
+        });
+      }
+      
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          // Please sync "Settings" to the project
+        });
+      }
+      
+      var translateAppImage = document.getElementById("translateAppImage");
+      if (translateAppImage) {
+        translateAppImage.addEventListener("click", function (e) {
+            window.location.href = "../translate/translate.html";
+        });
+      }
+      </script>
+  </body>
+</html>

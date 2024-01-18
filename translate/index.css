@@ -1,0 +1,214 @@
+body{
+    background-image: url('bekgron.png');
+}
+.wrapper-group-70-child {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: -2px;
+    top: 0;
+    transform: scale(1.01);
+  }
+  .wrapper-group-70 {
+    position: absolute;
+    margin: 0 !important;
+    height: calc(100% + 0.1px);
+    width: calc(100% - 0.1px);
+    top: -0.4px;
+    right: 0.1px;
+    bottom: 0.3px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+  }
+  .choose-sign,
+  .language {
+    margin: 0;
+  }
+  .choose-sign-language-container {
+    position: relative;
+    display: inline-block;
+    width: 299px;
+    padding-right: var(--padding-xl);
+    z-index: 1;
+  }
+  .language1,
+  .sibi {
+    margin: 0;
+  }
+  .sibi-language {
+    position: absolute;
+    margin: 0 !important;
+    bottom: 336px;
+    left: -52px;
+    display: inline-block;
+    width: 291px;
+    z-index: 1;
+  }
+  .ellipse-pair {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-gray);
+    width: 98px;
+    height: 95px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .image-removebg-preview-2-1 {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 79px;
+    height: 71px;
+    object-fit: contain;
+    z-index: 2;
+  }
+  .s-i-b-i-frame {
+    flex: 1;
+    position: relative;
+    height: 95px;
+  }
+  .back-arrow-frame {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 98px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-gray);
+    width: 98px;
+    height: 95px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .image-removebg-preview-1-icon {
+    position: absolute;
+    top: 8px;
+    left: 14px;
+    width: 68px;
+    height: 68px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .ellipse-parent {
+    flex: 1;
+    position: relative;
+    height: 95px;
+  }
+  .back-arrow-frame1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 98px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .sign-ellipse {
+    width: 284px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 var(--padding-xl) 0 0;
+    box-sizing: border-box;
+  }
+  .bisindo,
+  .language2 {
+    margin: 0;
+  }
+  .bisindo-language {
+    position: relative;
+    display: inline-block;
+    width: 291px;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .language-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .additional-frame,
+  .inner-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .inner-frame {
+    flex: 1;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .additional-frame {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 7px;
+  }
+  .back-arrow-icon {
+    position: absolute;
+    margin: 0 !important;
+    top: -40px;
+    left: -21px;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .f-r-a-m-e-a,
+  .page-translator {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .f-r-a-m-e-a {
+    width: 412px;
+    flex-direction: column;
+    padding: 199px 8px 335px 37px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 64px;
+  }
+  .page-translator {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-roboto);
+  }
+  .translate-page-1 {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 40px 0 19px 21px;
+    box-sizing: border-box;
+  }

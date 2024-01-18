@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body{
+      background-image: url('bekgron.png');
+    }
+  </style>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="translate-page-1">
+      <section class="page-translator">
+        <div class="f-r-a-m-e-a">
+          <div class="wrapper-group-70">
+            
+          </div>
+          <b class="choose-sign-language-container">
+            <p class="choose-sign">Choose Sign</p>
+            <p class="language">Language</p>
+          </b>
+          <b class="sibi-language">
+            <p class="sibi">SIBI</p>
+            <p class="language1">Language</p>
+          </b>
+          <div class="additional-frame">
+            <div class="inner-frame">
+              <div class="sign-ellipse">
+                <button class="back-arrow-frame">
+                  <div class="s-i-b-i-frame">
+                    <div class="ellipse-pair" id="ellipsePair"></div>
+                    <img
+                      class="image-removebg-preview-2-1"
+                      alt=""
+                      src="Group 128.png"
+                    />
+                  </div>
+                </button>
+                <button class="back-arrow-frame1">
+                  <div class="ellipse-parent">
+                    <div class="frame-child" id="ellipse"></div>
+                    <img
+                      class="image-removebg-preview-1-icon"
+                      alt=""
+                      src="BISINDO.png"
+                    />
+                  </div>
+                </button>
+              </div>
+              <div class="language-frame">
+                <b class="bisindo-language">
+                  <p class="bisindo">BISINDO</p>
+                  <p class="language2">Language</p>
+                </b>
+              </div>
+            </div>
+          </div>
+          <img
+            class="back-arrow-icon"
+            alt=""
+            src="Back Arrow.png"
+            id="backArrowImage"
+          />
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var ellipsePair = document.getElementById("ellipsePair");
+      if (ellipsePair) {
+        ellipsePair.addEventListener("click", function (e) {
+          window.location.href = "../dictionarySIBI/aa.html";
+        });
+      }
+      
+      var ellipse = document.getElementById("ellipse");
+      if (ellipse) {
+        ellipse.addEventListener("click", function (e) {
+          window.location.href = "../bisindo/ab.html";
+        });
+      }
+      
+      var backArrowImage = document.getElementById("backArrowImage");
+      if (backArrowImage) {
+        backArrowImage.addEventListener("click", function (e) {
+          window.location.href = "../homepage/homepage.html";
+        });
+      }
+      </script>
+  </body>
+</html>
